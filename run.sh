@@ -6,7 +6,7 @@ reef-node purge-chain --dev -y
 
 echo "Running Reef Node daemon."
 
-reef-node --chain dev --base-path /tmp/reefnode --port 30333 --ws-port 9944 --rpc-port 9933 --rpc-methods Auto --rpc-cors all --rpc-external --ws-external --name ReefDev
+reef-node --dev --base-path /tmp/reefnode --port 30333 --ws-port 9944 --rpc-port 9933 --rpc-methods Auto --rpc-cors all --rpc-external --ws-external --name ReefDev
 
 
 cleanup ()
