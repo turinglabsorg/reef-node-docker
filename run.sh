@@ -2,7 +2,7 @@
 
 echo "Purging chain data.."
 
-reef-node purge-chain --dev -y
+reef-node purge-chain --base-path /tmp/reefnode --dev -y
 
 echo "Running Reef Node daemon."
 
